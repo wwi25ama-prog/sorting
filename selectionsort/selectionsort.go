@@ -2,6 +2,7 @@ package selectionsort
 
 // SmallestElementIndex gibt den Index des kleinsten Elements im Array arr ab Index start zurück.
 func SmallestElementIndex(arr []int, start int) int {
+	// Gehe das Array ab dem Start-Index durch und finde den kleinsten Wert.
 	minIndex := start
 	for i := start + 1; i < len(arr); i++ {
 		if arr[i] < arr[minIndex] {
