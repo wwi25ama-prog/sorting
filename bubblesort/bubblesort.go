@@ -4,18 +4,11 @@ package bubblesort
 // wenn das linke größer ist als das rechte.
 // Gibt true zurück, wenn mindestens ein Tausch stattgefunden hat.
 func BubbleUp(arr []int) bool {
-	// Initialisiere eine Variable, um zu verfolgen, ob ein Tausch stattgefunden hat.
-	// Laufe durch das Array und vergleiche benachbarte Elemente.
-	// Wenn das linke Element größer ist, tausche sie und setze swapped auf true.
-
 	// TODO
 	return false
 }
 
 // BubbleSort sortiert die übergebene Liste mittels des Bubble-Sort-Algorithmus.
 func BubbleSort(arr []int) {
-	// Verwende BubbleUp in einer Schleife.
-	// Wiederhole den Vorgang, bis keine Vertauschungen mehr stattfinden.
-
 	// TODO
 }
